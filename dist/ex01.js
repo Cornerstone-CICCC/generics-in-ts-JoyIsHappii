@@ -2,6 +2,7 @@
 // Create a function called concatSum that takes two generic arguments.
 // These arguments could be strings or numbers. If both are strings, use the concat method; otherwise, just sum the numbers.
 // If they are not of the same type, print an error message to the console; If they are not string or number, print an error message
+Object.defineProperty(exports, "__esModule", { value: true });
 const concatSum = (a, b) => {
     if (typeof a === "string" && typeof b === "string") {
         return a.concat(b);
