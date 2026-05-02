@@ -26,7 +26,6 @@ class Dictionary<K, V> {
   }
 }
 
-// Example usage:
 const stringNumberDict = new Dictionary<string, number>();
 stringNumberDict.add('one', 1);
 stringNumberDict.add('two', 2);
